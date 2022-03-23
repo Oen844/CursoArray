@@ -47,3 +47,12 @@ const orders = [
 
   console.log('-------------------------')
   console.log(orders);
+  console.log('-------------------------')
+
+  const array = ['a', 'bb', 'ccc']; 
+const rta = array.map(item => item.length);
+console.log(rta);
+
+const numbers1 =[11,1,13,99,8];
+numbers1.sort((a,b) => a-b);
+console.log(numbers1);  //muy buena

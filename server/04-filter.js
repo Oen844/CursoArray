@@ -42,6 +42,7 @@ const rta3 = orders.filter(
 );
 
 console.log("rta3", rta3);
+console.log('original', orders);
 
 const search = (query) => {
     return orders.filter(items => {

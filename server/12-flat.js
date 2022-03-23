@@ -36,3 +36,6 @@ console.log(rta3);
 const rta4 = matriz2.flat();
 console.log(rta4);
 
+const array = [['🐸','🐱'],'🐹', ['🐯']]; 
+const rta = array.flat();
+console.log(rta);
